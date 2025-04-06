@@ -4,10 +4,10 @@
 
 <template>
     <div>
-        <div class="bg-stone-950 text-white flex justify-center items-center gap-3 p-1">
+        <NuxtLink class="bg-stone-950 text-white flex justify-center items-center gap-3 p-1" to="https://github.com/AmineLahmary/srecipes-wp-nuxt" target="_blank">
             Get The Code Source
             <UIcon name="line-md:github" size="32" class="stroke-3"/>
-        </div>
+        </NuxtLink>
         <TheHeader>
             <div class="container">
                 Logo

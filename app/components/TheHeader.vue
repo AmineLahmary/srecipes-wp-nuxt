@@ -98,7 +98,7 @@ onMounted(async () => {
 <template>
   <header class="border-b border-gray-200 bg-white sticky top-0 py-4">
     <div class="container flex items-center justify-between">
-      <NuxtLink class="flex items-center" to="https://github.com/AmineLahmary/srecipes-wp-nuxt">
+      <NuxtLink class="flex items-center" to="/">
         <UIcon
           name="arcticons:enrecipes"
           mode="svg"

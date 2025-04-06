@@ -1,4 +1,4 @@
-import{_ as d}from"./zocTLGVU.js";import{g as y}from"./Cqbf2FnG.js";import{k as f,g as x,c as g,a as e,b as v,d as u,t as m,j as n,o as N}from"./BfrDG-VK.js";const k={class:"container flex flex-col items-center my-20 space-y-5"},V={__name:"my-account",setup(b){const i=y`
+import{_ as d}from"./40H1M4GY.js";import{g as y}from"./Q9azy6Tv.js";import{k as f,g as x,c as g,a as e,b as v,d as u,t as m,j as n,o as N}from"./CAwHNRli.js";const k={class:"container flex flex-col items-center my-20 space-y-5"},V={__name:"my-account",setup(b){const i=y`
   query MyAccount {
     viewer {
       id
