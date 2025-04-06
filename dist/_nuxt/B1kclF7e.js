@@ -1,0 +1,1 @@
+import{_ as o,c as s,t as r,P as a,o as t}from"./BfrDG-VK.js";const n={};function c(e,l){return t(),s("div",null,r((e._.provides[a]||e.$route).params.slug),1)}const u=o(n,[["render",c]]);export{u as default};
