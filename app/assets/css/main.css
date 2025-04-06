@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+
+:root {
+    --ui-primary: var(--color-amber-500);
+    --ui-secondary: var(--color-stone-900);
+    --ui-success: var(--ui-color-success-500);
+    --ui-info: var(--ui-color-info-500);
+    --ui-warning: var(--ui-color-warning-500);
+    --ui-error: var(--ui-color-error-500);
+  }
+
+@layer base {
+    html {
+        @apply scroll-smooth;
+    }
+
+    footer,
+    header,
+    main {
+        @apply px-5;
+    }
+}
+
+@layer utilities {
+    .scrollbar::-webkit-scrollbar {
+        @apply w-1.5 h-1.5;
+    }
+    .container {
+        @apply mx-auto max-w-[1060px];
+    }
+}

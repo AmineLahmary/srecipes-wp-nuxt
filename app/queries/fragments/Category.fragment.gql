@@ -1,0 +1,4 @@
+fragment Cat on Category {
+    name,
+    slug
+}

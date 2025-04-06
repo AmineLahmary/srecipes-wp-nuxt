@@ -1,0 +1,22 @@
+query Posts {
+  posts {
+    nodes {
+      id,
+      title,
+      excerpt,
+      content,
+      categories {
+        nodes {
+          name
+          slug
+        }
+      },
+      featuredImage {
+        node {
+          sourceUrl
+          srcSet
+        }
+      }
+    }
+  }
+}
